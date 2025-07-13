@@ -16,7 +16,7 @@ body {
   padding: 20px 40px;
   border: 2px solid black;
   border-radius: 15px;
-  background-color: rgba(0, 0, 0, 0.5); /* optional for contrast */
+  background-color: rgba(0, 0, 0, 0.5); 
   color: white;
   font-size: clamp(1.5rem, 5vw, 3em);
   display: flex;
