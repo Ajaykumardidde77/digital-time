@@ -1,4 +1,4 @@
-
+/* Make body fill the screen and center content */
 body {
   margin: 0;
   padding: 0;
@@ -7,19 +7,39 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(rgb(243, 122, 42), rgb(247, 246, 249), rgb(16, 153, 16));
   font-family: Arial, sans-serif;
 }
 
-
+/* Make timer container responsive */
 #Time {
   padding: 20px 40px;
   border: 2px solid black;
   border-radius: 15px;
-  color: blue;
   font-size: clamp(1.5rem, 5vw, 3em);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   text-align: center;
+}
+#title {
+  position: absolute;
+  top: 30px;
+  text-align: center;
+  width: 100%;
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+#title h1 {
+  font-size: 2.5em;
+  margin: 40;
+  color: blue;
+}
+
+#title p {
+  font-size: 1.2em;
+  margin-top: 50px;
+  color: blue;
 }
